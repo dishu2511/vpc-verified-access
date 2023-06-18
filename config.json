@@ -1,0 +1,20 @@
+{
+    "STACK_NAME": "verified-access",
+    "PRIVATE_SUBNET_IDS": [
+        "subnet-1xxxxxxxxx",
+        "subnet-2xxxxxxxxx",
+        "subnet-3xxxxxxxxx"
+    ],
+    "VPC_ID": "vpc-123456789",
+    "INSTANCE_TYPE": "t2.micro",
+    "CLOUDWATCH_LOGS": true,
+    "AMI": "ami-xxxxxxxxx",
+    "DOMAIN": "*.xyz.com",
+    "APPLICATION_DOMAIN": "vpcverifiedaccess.xyz.com",
+    "POLICY_REF_NAME": "awssso",
+    "EMAIL_DOMAIN": "@xyz.com",
+    "GROUP_ID": "<AWS_SSO_GROUP_ID>",
+    "HTTPS_PORT": 443,
+    "HTTP_PORT": 80,
+    "PROTOCOL": "tcp"
+}
